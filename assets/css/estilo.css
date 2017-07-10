@@ -1,0 +1,431 @@
+    html,
+    body {
+        font-family: 'Lato', Arial, sans-serif;
+        overflow-x: hidden;
+        background: #fff;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    /*========== Header ============*/
+    
+    header,
+    footer {
+        background: #333333;
+    }
+    
+    header .links img {
+        position: relative;
+        top: 50px;
+        padding: 0 15px 30px 0;
+    }
+    
+    header .links ul {
+        list-style: none;
+        color: #fff;
+        padding-left: 5px;
+        width: 100%;
+    }
+    
+    header .links li:nth-of-type(1) {
+        float: left;
+    }
+    
+    header .links li:nth-of-type(2) {
+        float: right;
+        padding-left: 12px;
+    }
+    
+    header .menu-principal .price {
+        color: #fff;
+        font-size: 12px;
+        float: left;
+        padding-top: 15px;
+    }
+    
+    header .menu-principal .fa-shopping-cart {
+        color: #f8595f;
+        font-size: 25px;
+        float: left;
+        padding: 15px 5px 0 0;
+    }
+    
+    header .menu-principal input {
+        border: 0;
+        border-bottom: 2px solid #fff;
+        background: transparent;
+        border-radius: 0;
+        padding-left: 0;
+        color: #fff;
+    }
+    
+    header .menu-principal button {
+        background: transparent;
+        color: #fff;
+        border: 0;
+    }
+    
+    header .desktop-div {
+        display: block;
+    }
+    
+    header .mobile-div {
+        display: none;
+    }
+    
+    header .navbar-nav {
+        margin: 7.5px -15px;
+    }
+    
+    header .navbar-default .navbar-nav li a {
+        color: #fff;
+        padding: 10px 7px;
+    }
+    
+    header .navbar-default .navbar-nav li a:after {
+        content: "\f107";
+        font: normal normal normal 14px/1 FontAwesome;
+        color: #e4e4e4;
+        padding-left: 5px;
+    }
+    
+    header .navbar-default .navbar-nav li a:hover {
+        color: #f8595f;
+    }
+    
+    header .navbar-default {
+        background-color: #333333;
+        border: 0;
+    }
+    /*========== End Header ============*/
+    /*========== Begin Cars ============*/
+    
+    main h2 {
+        font-size: 40px;
+        font-weight: 600;
+        margin: 10px 0 10px;
+    }
+    
+    main .cars-row,
+    main #mais-desejados {
+        padding: 0 0 25px;
+    }
+    
+    main .cars-row:last-child {
+        border-bottom: 1px solid #ccc
+    }
+    
+    main .img-cars {
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+    /*========== End Cars ============*/
+    /*========== Begin Mais Desejados ============*/
+    
+    main .offers-info {
+        margin-bottom: 25px;
+    }
+    
+    main .offers-info .offer {
+        text-align: center;
+        color: #fff;
+        z-index: 1;
+        border: 0 none;
+        height: 30px;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+    }
+    
+    main .offers-info span {
+        padding-right: 8px;
+    }
+    
+    main .offers-info .offer:nth-child(1) {
+        top: 28px;
+        right: 0;
+        width: 35%;
+        background-color: #000000;
+    }
+    
+    main .offers-info .offer:nth-child(2) {
+        top: 28px;
+        left: 55px;
+        width: 105px;
+        background-color: #0082a7;
+    }
+    
+    main .offers-info .offer:nth-child(3) {
+        top: 30px;
+        left: 180px;
+        width: 75px;
+        background-color: #de006f;
+    }
+    
+    main .offers-info p {
+        text-align: center;
+        padding: 0px 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    main .offers-info p span:first-of-type {
+        color: #999999;
+        text-decoration: line-through;
+        font-weight: normal;
+    }
+    
+    main .offers-info p span:last-of-type {
+        color: #f8595f;
+        font-weight: normal;
+    }
+    
+    main .btn-buy {
+        width: 160px;
+        height: 40px;
+        border: 2px solid #009200;
+        background: transparent;
+        color: #009200;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 0.3em;
+    }
+    /*========== End Mais Desejados ============*/
+    /*========== Begin Newsletter ============*/
+    
+    main .banner {
+        text-align: center;
+        background: #333333;
+        color: #fff;
+        font-size: 25px;
+        line-height: 10;
+        text-transform: uppercase;
+        margin: 3%;
+    }
+    
+    main .news {
+        padding: 25px 0 0 0;
+    }
+    
+    main .novidades {
+        padding: 15px 0 20px 0;
+    }
+    
+    main .novidades p {
+        padding: 0 0 30px 15px;
+    }
+    
+    main .novidades span {
+        color: #333333;
+        position: relative;
+        left: 18px;
+    }
+    
+    main .novidades input {
+        border: 0;
+        border-bottom: 3px solid #333333;
+        background: transparent;
+        width: 75%;
+        padding-left: 20px;
+    }
+    
+    main .novidades button {
+        padding: 5px;
+        background-color: #333333;
+        border: 0;
+        color: #fff;
+        width: 100px;
+    }
+    
+    main .btn-social:nth-of-type(1),
+    main .btn-social:nth-of-type(2),
+    main .btn-social:nth-of-type(3) {
+        padding: 10px;
+        margin: 10px;
+        background-color: #fff;
+        font-size: 20px;
+        border: 0;
+        color: #333333;
+        width: 40px;
+        border-radius: 60px;
+    }
+    /*========== End Newsletter ============*/
+    /*========== Rodapé ============*/
+    
+    footer h3 {
+        color: #fff;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    
+    footer .link-rodape .nav span {
+        font-size: 20px;
+    }
+    
+    footer .payment h3 {
+        color: #000;
+        font-size: 13px;
+        font-weight: 700;
+        margin-top: 7px;
+    }
+    
+    footer .link-rodape li {
+        color: #fff;
+    }
+    
+    footer .link-rodape .side-right {
+        text-align: right;
+    }
+    
+    footer .link-rodape .logo-links {
+        list-style: none;
+        text-align: center;
+        padding-top: 35px;
+    }
+    
+    main #newsletter,
+    footer .secure {
+        background: #e4e4e4;
+        margin: 15px 0 0;
+    }
+    
+    footer .copyright {
+        background: #fff;
+        padding: 20px 5%;
+    }
+    
+    footer .copyright li {
+        color: #999999;
+    }
+    
+    footer .secure,
+    footer .link-rodape {
+        padding: 20px 7%;
+    }
+    
+    footer .pagamento {
+        margin-bottom: 0;
+        padding-left: 6px;
+    }
+    
+    footer .pagamento li {
+        background: url(../img/sprite.png) no-repeat;
+        height: 35px;
+        width: 47px;
+        display: inline-block;
+    }
+    
+    footer .nav-footer {
+        padding: 0;
+        list-style: none;
+    }
+    
+    footer .nav-footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    footer .pagamento>.visa {
+        background-position: -5px 0;
+    }
+    
+    footer .pagamento>.dinners {
+        background-position: -58px 0;
+    }
+    
+    footer .pagamento>.amex {
+        background-position: -111px 0;
+    }
+    
+    footer .pagamento>.boleto {
+        background-position: -164px 0;
+    }
+    
+    footer .pagamento>.master {
+        background-position: -217px 0;
+    }
+    
+    footer .pagamento>.hiper {
+        background-position: -5px -42px;
+    }
+    
+    footer .pagamento>.moip {
+        background-position: -58px -42px;
+    }
+    
+    footer .pagamento>.ebit {
+        background-position: -115px -42px;
+        height: 75px;
+        width: 60px;
+    }
+    
+    footer .pagamento>.certisign {
+        position: absolute;
+        background-position: -184px -42px;
+        width: 90px;
+    }
+    
+    footer .pagamento>.clearsale {
+        background-position: 0 -123px;
+        width: 125px;
+    }
+    
+    footer .pagamento>.pci {
+        background-position: -272px -4px;
+        height: 75px;
+        width: 75px;
+    }
+    
+    footer .pagamento>.vtex {
+        background-position: 0px -71px;
+        width: 90px;
+    }
+    
+    footer .pagamento>.quatro {
+        background-position: -123px -112px;
+        width: 105px;
+    }
+    /*========== End Rodapé ============*/
+    /*========== Media Queries ============*/
+    
+    @media screen and (max-width: 1200px) {
+        header .desktop-div {
+            display: none;
+        }
+        header .mobile-div {
+            display: block;
+        }
+        main .offers-info .offer:nth-child(1),
+        main .offers-info .offer:nth-child(2),
+        main .offers-info .offer:nth-child(3) {
+            left: 0;
+            right: 0;
+            display: table;
+            top: 0;
+            width: 75%;
+            margin-top: 5px;
+        }
+        main .novidades p {
+            padding: 0 12px;
+            text-align: center;
+        }
+        main .novidades input {
+            width: 90%;
+        }
+        main .novidades button {
+            width: 100px;
+            margin-left: 18px;
+        }
+        footer .link-rodape .side-right {
+            text-align: left;
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+        header .desktop-div {
+            display: block;
+        }
+        header .mobile-div {
+            display: none;
+        }
+    }
