@@ -13,7 +13,6 @@
 
     <link rel="stylesheet" href="assets/css/estilo.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,900">
-    <link rel="icon" href="assets/img/icon.png">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -31,7 +30,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body id="bootstrap-overrides">
     <!--header-->
     <header>
         <div class="container">
@@ -41,8 +40,8 @@
                         <div class="col-sm-12">
                             <ul>
                                 <li>Olá, bem vindo!</li>
-                                <li>Meus Pedidos</li>
-                                <li class="text-right">Atendimento</li>
+                                <li>Atendimento</li>
+                                <li class="text-right">Meus Pedidos</li>
                             </ul>
                         </div>
                         <!-- /col-sm-12 -->
@@ -58,7 +57,7 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="row menu-principal">
-                        <div class="col-sm-4 text-center mobile-div">
+                        <div class="col-sm-3 text-center mobile-div">
                             <img src="assets/img/QDCars.png" alt="QD Cars Logo">
                         </div>
                         <!-- /col-sm-4 -->
@@ -89,19 +88,21 @@
                             <!-- /navbar navbar-default -->
                         </div>
                         <!-- /col-sm-4 -->
-                        <div class="col-sm-4 text-center desktop-div">
+                        <div class="col-sm-3 text-center desktop-div">
                             <img src="assets/img/QDCars.png" alt="QD Cars Logo">
                         </div>
                         <!-- /col-sm-4 -->
-                        <div class="col-sm-4">
-                            <form class="navbar-form navbar-left">
+                        <div class="col-sm-3">
+                            <form>
                                 <div class="form-group">
                                     <input type="text" class="form-control" placeholder="Estou procurando por...">
                                 </div>
                                 <button type="submit" class="fa fa-search" aria-hidden="true"></button>
                             </form>
-                            <!-- /navbar-form navbar-left -->
-                            <div>
+                        </div>
+                        <!-- /navbar-form navbar-left -->
+                        <div class="col-sm-2">
+                            <div class="pull-right">
                                 <span class="fa fa-shopping-cart" aria-hidden="true"></span>
                                 <p class="price">(99)<br>R$ 9.999,00</p>
                             </div>
@@ -121,7 +122,7 @@
         <!-- Conteudos -->
         <section id="cars">
             <div class="container">
-                <div class="row">
+                <div class="row cars-row">
                     <div class="col-md-12">
                         <div class="row cars-row">
                             <div class="col-sm-12">
@@ -131,7 +132,7 @@
                         </div>
                         <!-- /row cars-row-->
 
-                        <div class="row cars-row">
+                        <div class="row">
                             <div class="col-sm-6">
                                 <img src="assets/img/img5.png" class="img-responsive img-cars">
                             </div>
@@ -143,7 +144,7 @@
                         </div>
                         <!-- /row cars-row-->
 
-                        <div class="row cars-row">
+                        <div class="row">
                             <div class="col-sm-4">
                                 <img src="assets/img/img2.png" class="img-responsive img-cars">
                             </div>
@@ -321,7 +322,7 @@
                         <!-- /nav -->
                     </div>
                     <!-- /col-sm-3 -->
-                    <div class="col-sm-5">
+                    <div class="col-sm-6">
                         <ul class="nav-footer">
                             <li class="logo-links">
                                 <p><img src="assets/img/QDCars.png" alt="QD Cars Logo"></p>
@@ -336,7 +337,7 @@
                         <!-- /nav -->
                     </div>
                     <!-- /col-sm-5 -->
-                    <div class="col-sm-3 side-right">
+                    <div class="col-sm-3 pull-right text-right">
                         <h3>Atendimento</h3>
                         <ul class="nav-footer">
                             <li>(11) <span>3054-3434</span></li>
@@ -356,32 +357,25 @@
         <div class="container-fluid secure">
             <div class="col-sm-12">
                 <div class="row payment">
-                    <div class="col-sm-1">
-                        <h3>Atendimento</h3>
-                    </div>
                     <!-- /col-sm-1 -->
-                    <div class="col-sm-4">
-                        <ul class="pagamento">
+                    <div class="col-sm-6">
+                        <h3 class="pull-left">Atendimento</h3>
+                        <ul class="pagamento pull-left">
                             <li class="visa"></li>
                             <li class="dinners"></li>
                             <li class="amex"></li>
                             <li class="boleto"></li>
                             <li class="master"></li>
-                        </ul>
-                        <!-- /pagamento -->
-                        <ul class="pagamento">
+                            <br>
                             <li class="hiper"></li>
                             <li class="moip"></li>
                         </ul>
                         <!-- /pagamento -->
                     </div>
                     <!-- /col-sm-4 -->
-                    <div class="col-sm-2">
-                        <h3>Compra 100% segura</h3>
-                    </div>
-                    <!-- /col-sm-2 -->
-                    <div class="col-sm-5">
-                        <ul class="pagamento">
+                    <div class="col-sm-6">
+                        <h3 class="pull-left">Compra 100% segura</h3>
+                        <ul class="pagamento pull-left">
                             <li class="ebit"></li>
                             <li class="certisign"></li>
                             <li class="clearsale"></li>
